@@ -1,0 +1,45 @@
+from ast import While
+from ast import For
+
+
+x = -22
+
+# Ejercicio condicional
+if x > 0:
+    print("el numero es positivo.")
+else:
+    print("es numero negativo.")
+
+#Ejercicio While
+    numerowhile = 0
+    while numerowhile < 3:
+        numerowhile += 1
+        print(numerowhile)
+
+
+# Pendiente el do while
+
+
+#Ejercicio For
+numerofor = 0
+while numerofor <= 3:
+    numerofor += 1
+    for i in range(3) :
+         print(i)
+    numerofor += 1        
+
+
+varestacion = "verano"
+
+match varestacion:
+    case "invierno":
+        print("el clima es frio")
+
+    case "verano":
+        print ("puedes ir a la playa")
+
+    case "otoño":
+        print ("ver caer las hojas de los arboles")
+
+    case "primavera":
+        print("el clima es hermoso disfrutalo")
