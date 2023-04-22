@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+
+    <body>
+        <form action="/">
+            
+            <label for="nombreusuario">Nombre de usuario</label> 
+            <input type="text" id="nombreusuario"> 
+            <label for="Edad">Edad</label>
+            <input type="number">
+            <label for="frasefavorita">Frase Favorita</label>
+            <input type="text">
+
+            <button>Enviar</button>
+            <button>Reset</button>
+        </form>
+
+    </body>
+</html>
